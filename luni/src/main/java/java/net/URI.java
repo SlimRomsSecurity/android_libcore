@@ -201,6 +201,7 @@ public final class URI implements Comparable<URI>, Serializable {
      * @param spec a URI whose illegal characters have all been encoded.
      */
     public URI(String spec) throws URISyntaxException {
+        java.util.SeempLog.record_str(92, "s:"+spec);
         parseURI(spec, false);
     }
 
