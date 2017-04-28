@@ -779,8 +779,6 @@ public final class URLTest extends TestCase {
         assertEquals(host, url.getHost());
         assertEquals(fragment, url.getRef());
     }
-<<<<<<< HEAD
-=======
 
     // http://b/33351987
     public void testMultipleUserField() throws Exception {
@@ -789,5 +787,4 @@ public final class URLTest extends TestCase {
         assertNull(url.getUserInfo());
         assertTrue(url.getHost().isEmpty());
     }
->>>>>>> android-7.1.2_r2
 }
